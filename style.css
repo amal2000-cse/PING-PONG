@@ -1,0 +1,47 @@
+#container {
+    position: relative;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at 50% 50%, #ff4d4d, #d90000);
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    border-radius: 50%;
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+ #rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    background-color: blue;
+    top: 0px;    
+}
+
+#rod2 {
+    background-color: blueviolet;
+    bottom: 0px;
+} 
+
+
