@@ -33,14 +33,30 @@
     color: white;
     font-weight: bold;
 }
+#rod1, #rod2 {
+    width: 300px;
+    height: 30px;
+    position: fixed;
+    left: 50%;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(90deg, #3498db, #2980b9, #3498db);
+    border: 2px solid #020507;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
 
 #rod1 {
-    background-color: blue;
+    background: linear-gradient(90deg, #e950c3, #dc535f, #fb20a7);
+
     top: 0px;    
 }
 
 #rod2 {
-    background-color: blueviolet;
+    background: linear-gradient(90deg, #dbbf34, #29b993, #3498db);
     bottom: 0px;
 } 
 
